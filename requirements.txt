@@ -1,0 +1,9 @@
+pytz==2024.1
+icalendar==5.0.12
+python-dateutil==2.8.2
+python-dotenv==1.0.1
+google-generativeai==0.3.2
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.0
+tzlocal==5.2 
