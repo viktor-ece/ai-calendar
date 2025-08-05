@@ -50,7 +50,7 @@ cd ai-calendar
 
 2. Execute the setup script (recommended for first-time users):
 ```bash
-chmod +x setup.shvs
+chmod +x setup.sh
 ./setup.sh
 ```
 
