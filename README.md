@@ -7,7 +7,6 @@ An intelligent calendar management system that combines ICS calendar parsing, AI
 - **Multi-Calendar Support**: Fetch and combine events from multiple Google Calendars
 - **Smart Scheduling**: AI-powered suggestions for optimal event timing
 - **Google Calendar Integration**: Seamlessly create events in Google Calendar
-- **Recurring Event Handling**: Full support for recurring events and exceptions
 - **Timezone-Aware**: Proper handling of timezones across all operations
 - **Interactive Feedback**: Refine scheduling suggestions through natural language feedback
 
@@ -25,12 +24,11 @@ An intelligent calendar management system that combines ICS calendar parsing, AI
 - Uses Google's Gemini AI model
 
 ### 3. Calendar Parser (`calendar_parser.py`) (currently not used in the main application)
-- Parses ICS calendar files 
-- Handles recurring events and exceptions
+- Parses ICS calendar files
 - Supports multiple calendars
 - Timezone-aware event processing
 
-### 4. Main Application (`main.py`)
+### 4. Main Application (`main.py`)        
 - Orchestrates all components
 - Provides interactive command-line interface
 - Manages user interaction and feedback
@@ -52,7 +50,7 @@ cd ai-calendar
 
 2. Execute the setup script (recommended for first-time users):
 ```bash
-chmod +x setup.sh
+chmod +x setup.shvs
 ./setup.sh
 ```
 
@@ -145,18 +143,6 @@ ai-calendar/
 - Calendar data is processed locally
 - No data is stored permanently
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository. 
